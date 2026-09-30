@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "wandering_trader_alert",
+  "version": "${version}",
+  "name": "Wandering Trader Alert",
+  "description": "Warns all players (chat, action bar and a sound) when a wandering trader spawns.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.traderalert.WanderingTraderAlert"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
